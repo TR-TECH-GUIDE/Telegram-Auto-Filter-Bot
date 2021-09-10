@@ -1,0 +1,46 @@
+{
+    "name": "Auto Filter Bot V2",
+    "description": "A Filter Bot Which Doesnt Need Manuall Filter Adding",
+    "logo": "https://avatars.githubusercontent.com/u/88565605?s=400&u=ace2b3e67145a902cc2b821e649ce8acd259c296&v=4",
+    "keywords": [
+        "Auto",
+        "Filter",
+        "Mongo DB"
+    ],
+    "website": "https://github.com/TR-TECH-GUIDE",
+    "repository": "https://github.com/TR-TECH-GUIDE/Adv-Auto-Filter-Bot-V2",
+    "success_url": "https://telegram.dog/SLBotsOfficial",
+    "env": {
+        "APP_ID": {
+            "description": "Your APP ID From my.telegram.org",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "Your API Hash From my.telegram.org",
+            "value": ""
+        },
+        "BOT_TOKEN": {
+            "description": "Your Bot Token From @BotFather",
+            "value": ""
+        },
+        "DB_URI": {
+            "description": "Your Mongo DB URL Obtained From mongodb.com",
+            "value": ""
+        },
+        "USER_SESSION": {
+            "description": "A Pyrogram User Session String. Generated From @StringSessiongenslbot",
+            "value": ""
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
