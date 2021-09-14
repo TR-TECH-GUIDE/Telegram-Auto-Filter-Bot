@@ -98,5 +98,5 @@ Selling The Codes To Other People For Money Is *Strictly Prohibited*.
 ---
 
 ## Credits
-
- - [Tharuk Renuja](https://github.com/TR-TECH-GUIDE) for modifying [this repository](https://github.com/TR-TECH-GUIDE/Telegram-Auto-Filter-Bot)
+ - [Fayas](https://github.com/FayasNoushad)
+ - [Me](https://github.com/TR-TECH-GUIDE)
